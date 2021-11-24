@@ -1,0 +1,33 @@
+name: CompatLib
+main: de.jeff_media.compatlib.CompatLib
+version: ${project.version}
+description: Provides removed libraries for 1.18+ servers
+api-version: "1.13"
+load: STARTUP
+depend:
+
+softdepend:
+
+loadbefore:
+  - AngelChest
+  - AngelChestPlus
+  - ChestSort
+  - Drop2InventoryPlus
+  - Drop2Inventory
+  - RePlant
+  - JukeBoxPlus
+  - AutoComposter
+  - AutoShulker
+  - BestTools
+  - LumberJack
+  - DoorsReloaded
+  - FilteredHoppers
+  - InvUnload
+  - BetterTridents
+  - LightPerms
+  - WorldEdit
+  - WorldGuard
+  - Essentials
+  - EssentialsX
+  - CMI
+  - CMILib
